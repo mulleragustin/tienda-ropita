@@ -12,17 +12,18 @@ function Navbar() {
   return (
     <>
       <NavContainer className='justify-content-space-between container-fluid'>
-        <h2><span>Ropita</span></h2>
+        <h2>Ropita</h2>
         <div className={`links ${clicked ? 'active' : ''} `}>
           <a onClick={handleClick} href="#h">Home</a>
           <a onClick={handleClick} href="#h">Tienda</a>
           <a onClick={handleClick} href="#h">Marcas</a>
 
         </div>
-        <div className={`links ${clicked ? 'active' : ''} `}>
-          <a onClick={handleClick} href="#h">CUENTA</a>
-          <a onClick={handleClick} href="#h">CARRITO</a>
-          <a onClick={handleClick} href="#h">FAVORITOS</a>
+        <div /* className={`links ${clicked ? 'active' : ''} `} */>
+          <a /* onClick={handleClick} */ href="#h"><img src="icons/user.svg" alt="user"/></a>
+          <a /* onClick={handleClick} */ href="#h"><img src="icons/star.svg" alt="fav"/></a>
+          <a /* onClick={handleClick} */ href="#h"><img src="icons/shopping-cart.svg" alt="cart"/></a>
+          
 
         </div>
         
@@ -39,19 +40,19 @@ export default Navbar
 
 const NavContainer = styled.nav`
   h2{
-    color: white;
+    
     font-weight: 400;
     span{
       font-weight: bold;
     }
   }
   padding: .4rem;
-  background-color: #333;
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
   a{
-    color: white;
+    color: black;
     text-decoration: none;
     margin-right: 1rem;
   }
@@ -65,7 +66,7 @@ const NavContainer = styled.nav`
     text-align: center;
     transition: all .5s ease;
     a{
-      color: white;
+      
       font-size: 2rem;
       display: block;
     }
@@ -74,7 +75,7 @@ const NavContainer = styled.nav`
       margin: 0;
       a{
         font-size: 1rem;
-        color: white;
+        
         display: inline;
       }
       display: block;
@@ -93,7 +94,7 @@ const NavContainer = styled.nav`
     a{
       font-size: 2rem;
       margin-top: 1rem;
-      color: white;
+      
     }
   }
   .burguer{
@@ -104,7 +105,7 @@ const NavContainer = styled.nav`
 `
 
 const BgDiv = styled.div`
-  background-color: #222;
+  
   position: absolute;
   top: -1000px;
   left: -1000px;
