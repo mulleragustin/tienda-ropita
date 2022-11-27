@@ -5,7 +5,9 @@ import CartWidget from './CartWidget'
 function Navbar() {
 
   
-  return (        
+  return (       
+  
+    
           <nav className="navbar navbar-expand-lg bg-light ">
             <div className="container-fluid p-0">
               <div>
