@@ -1,0 +1,48 @@
+[
+    {
+        "id":1,
+        "nombre":"ZX 2K BOOST",
+        "marca":"Adidas",
+        "categoria":"Zapatillas",
+        "precio":20000,
+        "imagen":"https://assets.adidas.com/images/w_600,f_auto,q_auto/154768ef2f4044a898d9abc600b260cf_9366/Zapatillas_ZX_2K_Boost_Negro_FV9993_01_standard.jpg",
+        "stock":10
+
+    },
+    {
+        "id":2,
+        "nombre":"JORDAN 1",
+        "marca":"Nike",
+        "categoria":"Zapatillas",
+        "precio":25000,
+        "imagen":"https://media.revistagq.com/photos/5f2832773c95260b5c5ae0fc/16:9/w_1631,h_917,c_limit/Captura%20de%20pantalla%202020-08-03%20a%20las%2017.50.14.png",
+        "stock":13
+    },
+    {
+        "id":3,
+        "nombre":"RS-X",
+        "marca":"Puma",
+        "categoria":"Zapatillas",
+        "precio":18000,
+        "imagen":"https://media.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/z/a/zapatillas-puma-rs-x-mix-negra-640010380462003-1.jpg",
+        "stock":15
+    },
+    {
+        "id":4,
+        "nombre":"SPORTSWEAR",
+        "marca":"Nike",
+        "categoria":"Camperas",
+        "precio":30000,
+        "imagen":"https://www.dexter.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dwc990ca3b/products/NI_939438-011/NI_939438-011-1.JPG",
+        "stock":13
+    },
+    {
+        "id":5,
+        "nombre":"Originals",
+        "marca":"Adidas",
+        "categoria":"Buzos",
+        "precio":10000,
+        "imagen":"https://static.dafiti.com.ar/p/adidasoriginals-4231-566973-1-product.jpg",
+        "stock":13
+    }
+]
