@@ -12,6 +12,8 @@ const ItemDetail = ({item}) => {
                 <h5>{item.categoria}</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus fugit fuga quam dolorum est hic quis laborum ipsum voluptates commodi officia accusantium nisi nam a esse, impedit quasi vitae nobis?</p>
                 <p><b>${item.precio}</b></p>
+                <p>Stock: {item.stock}</p>
+                <button>Agregar al carrito</button>
                
             </div>
         </div>

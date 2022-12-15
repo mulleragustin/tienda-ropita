@@ -1,7 +1,7 @@
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Carousel from './components/Carousel';
+/* import Carousel from './components/Carousel'; */
 import Footer from './components/Footer';
 import ItemListContainer from './components/ItemListContainer';
 import Navbar from './components/Navbar';
@@ -18,7 +18,7 @@ function App() {
           <Route path={"/category/:id"} element={<ItemListContainer />} />
           <Route path={"/item/:id"} element={<ItemDetailContainer />} />
         </Routes>
-        <Carousel/>
+        {/* <Carousel/> */}
         <Footer/>
       </BrowserRouter>
     </div>
