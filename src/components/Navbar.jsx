@@ -1,6 +1,7 @@
 import React from 'react'
 import CartWidget from './CartWidget'
-import { Link, NavLink } from "react-router-dom";
+import { Link} from "react-router-dom";
+import NavListCointainer from './NavListContainer';
 
 function Navbar() {
  
@@ -16,7 +17,7 @@ function Navbar() {
                 <span className="navbar-toggler-icon"></span>
               </button>
               <div className="collapse navbar-collapse" id="navbarNav">
-                <ul className="navbar-nav mx-auto">
+                {/* <ul className="navbar-nav mx-auto">
                   <li className="nav-item fs-4 ">
                     <NavLink className="nav-link fs-4 text-dark" activeclassname="page" to={`/category/Zapatillas`}>Zapatillas</NavLink>
                   </li>
@@ -26,7 +27,8 @@ function Navbar() {
                   <li className="nav-item">
                     <NavLink className="nav-link fs-4 text-dark" activeclassname="page" to={"/category/Camperas"}>Camperas</NavLink>
                   </li>
-               </ul>
+               </ul> */}
+               <NavListCointainer/>
                  <div className='pe-4'>
                   <Link className='ps-3' style={{pointerEvents: "none"}} to={"/"}><img src="icons/user.svg" alt="user"/></Link>
                   <Link className='ps-3' style={{pointerEvents: "none"}} to={"/"}><img src="icons/star.svg" alt="fav" /></Link>

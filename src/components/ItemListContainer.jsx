@@ -16,6 +16,7 @@ const ItemListContainer = () => {
             setItems(data)
         })
     }, [id])
+    
     return (
         
         <div className="container bg-light">
