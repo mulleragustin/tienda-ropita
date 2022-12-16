@@ -28,8 +28,8 @@ function Navbar() {
                   </li>
                </ul>
                  <div className='pe-4'>
-                  <a className='ps-3' href="#"><img src="icons/user.svg" alt="user"/></a>
-                  <a className='ps-3' href="#"><img src="icons/star.svg" alt="fav"/></a>
+                  <Link className='ps-3' style={{pointerEvents: "none"}} to={"/"}><img src="icons/user.svg" alt="user"/></Link>
+                  <Link className='ps-3' style={{pointerEvents: "none"}} to={"/"}><img src="icons/star.svg" alt="fav" /></Link>
                   <CartWidget />
                 </div>
               </div>
