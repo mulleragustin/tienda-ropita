@@ -1,8 +1,7 @@
 import React from 'react'
 import CartWidget from './CartWidget'
 import { Link, NavLink } from "react-router-dom";
-import arrayProductos from "./json/productos.json";
-import { useState } from 'react';
+
 function Navbar() {
  
   return (       

@@ -18,7 +18,7 @@ const ItemListContainer = () => {
     }, [id])
     return (
         
-        <div className="container">
+        <div className="container bg-light">
             <ItemList items={items} />
         </div>
       
